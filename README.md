@@ -2,7 +2,7 @@
 
 Monitor Pie is a simple, lightweight, and elegant web-based dashboard for monitoring the real-time CPU and RAM usage of a remote computer. It's designed for users who want a quick visual overview of their system's performance from any device on their local network.
 
-![Monitor Pie Screenshot](Screenshot-2025-11-10-Google Chrome-131413.png)  
+![Monitor Pie Screenshot](dashboard.png)  
 
 ---
 

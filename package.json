@@ -1,0 +1,16 @@
+{
+  "name": "monitor-pie",
+  "version": "1.0.0",
+  "description": "Monitor Pie is a simple, lightweight, and elegant web-based dashboard for monitoring the real-time CPU and RAM usage of a remote computer. It's designed for users who want a quick visual overview of their system's performance from any device on their local network.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

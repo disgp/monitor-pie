@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="settings-icon">⚙️</div>
+
+    <div id="settings-panel" style="display: none">
+      <h4>Monitor Settings</h4>
+      <p>Enter the IP address of the MacBook you want to monitor.</p>
+      <input type="text" id="ip-input" placeholder="e.g., 192.168.1.100" />
+      <button id="save-ip-button">Save</button>
+    </div>
+
+    <div
+      class="status-message"
+      id="not-configured-message"
+      style="display: none"
+    >
+      Not Configured
+    </div>
+    <div class="status-message" id="disconnected-message" style="display: none">
+      Disconnected
+    </div>
+    <div class="status-message" id="offline-message" style="display: none">
+      Offline
+    </div>
+
+    <div class="dashboard" id="dashboard">
+      <div class="widget">
+        <h2>CPU</h2>
+        <div class="liquid-gauge">
+          <div class="liquid-fill" id="cpu-fill"></div>
+        </div>
+        <p id="cpu-load">0%</p>
+      </div>
+      <div class="widget">
+        <h2>RAM</h2>
+        <div class="liquid-gauge">
+          <div class="liquid-fill" id="ram-fill"></div>
+        </div>
+        <p id="ram-load">0%</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
